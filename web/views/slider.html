@@ -1,0 +1,164 @@
+<div class="slider-bg"><div class="slider-left"><div class="slider-right"><div class="home-slider">
+            <div id="text-3" class="widget-container widget_text">
+			
+			<div class="textwidget" id="slider_content">
+	<ul id="slider-289" class="anythingSlider">
+	</ul>
+		</div>
+		
+			<script>
+var config = {};
+config.bucket = {
+  slug: 'infinitebound',
+  read_key: 'DurWsN72RuS5Jd2AExOdvqVDQNGv1jBY0aHexPvXCjiNhwqFUL', // add read_key if added to your Cosmic JS bucket settings
+  write_key: '8u5THNrcyi4lWoYPsV67HkAShlyWdAEuSPS30gZiZJjTJn7BUa' // add write_key if added to your Cosmic JS bucket settings
+},
+config.object= {
+      slug: 'slider'
+    };
+
+
+  Cosmic.getObject(config, config.object, function(err, res) {
+    var object = res.object;
+   // document.getElementById('title').innerHTML = object.title;
+    document.getElementById('slider-289').innerHTML = object.content;
+  
+  });
+</script>
+		<style>
+
+			#slider-289 { width: 570px; height: 190px; }
+
+		</style>
+
+		<script> 
+
+		jQuery(function() {
+	  setTimeout(function () {
+			jQuery('#slider-289').anythingSlider({
+
+				
+
+				theme               : 'default', 
+
+				expand              : false,     
+
+				resizeContents      : true,
+
+				vertical            : false,      
+
+				showMultiple        : 1,     
+
+				easing              : 'swing',   
+
+				
+
+				buildArrows         : true,      
+
+				buildNavigation     : true,      
+
+				buildStartStop      : true,      
+
+		    
+
+				
+
+				toggleArrows        : false,     
+
+				toggleControls      : false,     
+
+				
+
+				startText           : 'Start',   
+
+				stopText            : 'Stop',    
+
+				forwardText         : '&raquo;', 
+
+				backText            : '&laquo;', 
+
+				tooltipClass        : 'tooltip1', 
+
+				
+
+				
+
+				enableArrows        : true,      
+
+				enableNavigation    : true,      
+
+				enableStartStop     : true,      
+
+				enableKeyboard      : true,      
+
+
+				startPanel          : '1',         
+
+				changeBy            : '1',         
+
+				hashTags            : true,      
+
+				infiniteSlides      : true,
+
+				navigationFormatter : 'NULL',      
+
+				
+
+				
+
+				autoPlay            : false,     
+
+				autoPlayLocked      : false,     
+
+				autoPlayDelayed     : false,     
+
+				pauseOnHover        : true,      
+
+				stopAtEnd           : false,     
+
+				playRtl             : false,     
+
+				
+
+				
+
+				delay               : 3000,      
+
+				resumeDelay         : 15000, 
+
+				animationTime       : 750,
+
+				delayBeforeAnimate  : 0,       
+
+				
+
+				
+
+				clickForwardArrow   : 'click',         
+
+				clickBackArrow      : 'click',         
+
+				clickControls       : 'click focusin', 
+
+				clickSlideshow      : 'click',        
+
+				
+
+				
+
+				resumeOnVideoEnd    : true,      
+
+				addWmodeToObject    : 'opaque'
+
+				
+
+			});
+			}, 2500);
+
+		}); 
+
+		</script>
+		</div>        </div></div></div></div><!-- #home-slider -->
+    
+
+	
